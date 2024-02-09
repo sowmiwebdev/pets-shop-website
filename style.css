@@ -10,7 +10,7 @@
 .petshop-Section{
     width: 100%;
     padding-bottom: 50px;
-    background-color: rgb(242, 227, 205);
+    background-color: rgb(246, 221, 183);
 }
 .search-result img{
     height: 250px;
@@ -45,6 +45,7 @@ h1{
     font-size: 18px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+     color:purple;
 }
 i{
    padding: 10px;
