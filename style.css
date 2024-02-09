@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.petshop-Section{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: rgb(247, 237, 223);
+}
+.search-result img{
+    height: 250px;
+    width: 300px;
+    padding-bottom: 5px;
+}
+.petshop-Container{
+    width: 80%;
+    margin:50px 200px;
+}
+#search-result{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(333px,2fr)) ;
+    gap: 2rem;
+}
+button{
+    text-align: center;
+    margin:50px 500px;
+    padding:5px 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(109, 24, 24);
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+.search-result a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+i{
+   padding: 10px;
+}

@@ -1,0 +1,15 @@
+
+@media(max-width:576px){
+    .petshop-Container{
+        width: 80%;
+        margin:30px 70px;
+    }
+   
+    .search-result img{
+        width: 250px;
+    }
+    button{
+        margin:50px 50px;
+    }
+    
+}
